@@ -1,5 +1,5 @@
 ---
-title: Microstruture of option prices
+title: Microstructure of option prices
 author:
 - Douglas Vieira
 - Imperial College London

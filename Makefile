@@ -21,5 +21,5 @@ MicrostructureOfOptionPrices.md: ../20180528-thalesians-vienna-seminar/Microstru
 References.bib: ../20180528-thalesians-vienna-seminar/References.bib
 	cp ../20180528-thalesians-vienna-seminar/References.bib .
 
-index.html: MicrostructureOfOptionPrices.md References.bib lob.html sp500.html heston.html rounded_heston.html
+index.html: MicrostructureOfOptionPrices.md References.bib scrollable.css lob.html sp500.html heston.html rounded_heston.html
 	pandoc -s -c scrollable.css -t revealjs -V theme=white -V revealjs-url=./ --mathjax --toc --toc-depth=1 -o index.html --bibliography References.bib MicrostructureOfOptionPrices.md
